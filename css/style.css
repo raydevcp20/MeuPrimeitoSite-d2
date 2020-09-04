@@ -1,0 +1,233 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+p {
+  font-family: "Alice", serif;
+}
+h1 {
+  text-align: center;
+  size: 24px;
+  color: #414141;
+}
+.menu {
+  background-color: #9afadd;
+  height: 4em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu img {
+  height: 3em;
+}
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-color: #38a5ff;
+}
+.banner div {
+  position: absolute;
+}
+.banner .title {
+  margin: 2em 15em;
+  position: absolute;
+  border-radius: 1em;
+  padding: 0.3em 5em;
+}
+.banner h2 {
+  color: #252525;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.479);
+}
+.button {
+  margin-top: 27em;
+  display: flex;
+  justify-content: center;
+}
+.button button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #78b400;
+  padding: 1.5rem 2rem;
+  border-radius: 2em;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#content1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2ecc71;
+  height: 80vh;
+  box-shadow: 2px 2px 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 3vh;
+}
+@media (max-width: 1024px) {
+  #content1 {
+    height: 100vh;
+  }
+}
+#content1 .text {
+  display: block;
+  width: 100%;
+  height: 55vh;
+  margin-right: 2em;
+}
+#content1 div h2 {
+  text-align: center;
+  margin-bottom: 2vw;
+  font-size: 34px;
+}
+#content1 div p {
+  font-size: 3vh;
+  text-align: justify;
+  margin-bottom: 5vh;
+}
+#content1 iframe {
+  width: 70em;
+}
+
+h3 {
+  margin: 0;
+  font-size: 35px;
+  color: white;
+}
+.goals {
+  box-shadow: 2px 2px 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: #f1c40f;
+  display: grid;
+  grid-template-columns: 30vw 30vw 30vw;
+  grid-gap: 1em;
+  padding: 40px;
+}
+
+.mr1 {
+  background-color: #2c3e50;
+  box-shadow: 7px 4px 5px 6px rgba(0, 0, 0, 0.2);
+  width: 29vw;
+  height: auto;
+  border-radius: 1.5em;
+  margin-right: 30px;
+  padding-top: 4vh;
+}
+.mr1 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 13px;
+  padding: 0 2vw;
+}
+.mr1 p {
+  color: white;
+  font-size: 1.1em;
+  margin: 1em 2em;
+  text-align: justify;
+}
+.mr1 div img {
+  width: 4em;
+  margin-left: 2em;
+}
+.goals .image{
+    width: 30vw;
+    margin-top: 10vh;
+}
+footer {
+  background-color: #9afadd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+@media (max-width: 768px) {
+    .banner img{
+        max-width:100%;
+    }
+    h1{
+        font-size: 18px;
+    }
+    h2{
+      font-size: 15px;
+    }
+    .banner .title {
+        margin: 1.5em;
+        position: absolute;
+        padding: 0.3em;
+    }
+    .button {
+      margin-top: 50vw;
+    }
+    .button button {
+      padding: 1rem 1.5rem;
+      border-radius: 2em;
+      font-size: 12px;
+    }
+    #content1 {
+      display: block;
+      height: 115vh;
+      box-shadow: inset -2px 7px 10px 5px rgba(0, 0, 0, 0.2);
+      padding: 3vh;
+    }
+    #content1 .text {
+      width: 100%;
+      height: 55vh;
+      font-size: 5px;
+      line-height: 20px;
+    }
+    #content1 div h2 {
+      line-height: 26px;
+      font-size: 30px;
+    }
+    #content1 iframe {
+      width: 90vw;
+      height: 30vh;
+      margin-top: 22vh;
+    }
+
+    .goals {
+      box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+      grid-template-columns: 45vw 40vw;
+      grid-gap: 2vw;
+      padding: 20px;
+    }
+    
+    .mr1 {
+      box-shadow: 2px 2px 5px 4px rgba(0, 0, 0, 0.2);
+      width: 45vw;
+      height: auto;
+      border-radius: 1.5em;
+      margin-right: 0vw;
+      padding-top: 4vh;
+    }
+    .mr1 div {
+      padding-top: 8px;
+      padding: 0vw;
+    }
+    h3{
+      font-size: 20px;
+    }
+    .mr1 p {
+      color: white;
+      font-size: 14px;
+      margin: 1em 1em;
+      text-align: justify;
+    }
+    .mr1 div img {
+      width: 8vw;
+      margin-left: 3vw;
+    }
+    .goals .image{
+        width: 39vw;
+        margin-top: 20vh;
+    }
+}
